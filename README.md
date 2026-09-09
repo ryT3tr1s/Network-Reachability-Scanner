@@ -18,7 +18,7 @@ To scan a list of hosts from a file:
     ``python3 network_monitor.py hosts.txt``
 
 To output the report to a file: 
-    ``python3 network_monitor.py --output unreachable.txt``
+    ``python3 network_monitor.py --output Network_Reachability_Report_09-09-2026.txt``
 
 To scan the entire network:
     ``python3 network_monitor.py``
