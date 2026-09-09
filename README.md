@@ -6,12 +6,22 @@ A python based tool that scans a subnet using ICMP echo requests, identifies rea
 - Network Diagnostics
 - ICMP/Ping
 - Subprocess Management
-- Data Parsing
+- File Parsing
 - Network Troubleshooting
 - Automation Scripting
 
 # Usage 
-``python3 reachability_scanner.py``
+To scan a single host: 
+    ``python network_monitor.py 192.168.1.20``
+    
+To scan a list of hosts from a file: 
+    ``python network_monitor.py hosts.txt``
+
+To output the report to a file: 
+    ``python network_monitor.py --output unreachable.txt``
+
+To scan the entire network:
+    ``python network_monitor.py``
 
 # Output
 ![imagealt](https://github.com/ryT3tr1s/Network-Reachability-Scanner/blob/7d2423c984e6db0aaaf0d84f8dcc676588ea2d3a/Network-Reachability-Scanner.png)
